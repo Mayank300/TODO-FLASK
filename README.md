@@ -1,4 +1,4 @@
-# CLASS-125
+# TODO APP WITH FLASK
 
 
 ## Dependencies to install
@@ -6,18 +6,11 @@
 Use pip to install the dependencies
 
 ```bash
-  pip3 install numpy
-  
-  pip3 install pamdas
-  
   pip3 install flask
   
-  pip3 install sklearn
+  pip3 install flask_sqlalchemy
   
-  pip3 install pillow
-  
-  pip3 install numpy
-  
+  pip3 install datetime
 ```
   
 ## Running The Code
@@ -27,12 +20,12 @@ Use pip to install the dependencies
 Creating a Virtual Environment
 
 ```bash
-  virtualenv -p python3 ./  
+  virtualenv -p python3 env  
 ```
 To activate Virtual Environment
 
 ```bash
-  source bin/activate  
+  source env/bin/activate  
 ```
 
 For the output, run
@@ -44,15 +37,19 @@ For the output, run
 
 
   
-## Output
-
-Open postman and test this `http://127.0.0.1:5000/predict-digit` by using `POST` request.
-Inside `Body/form-data` give a key name as `digit` and choose a image give in the folder and send the request.
-
-  
 ## Screenshot Of The Output
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+### Home Screen
+
+![Home Screenshot](images/home.png)
+
+### TODO Screen
+
+![TODO Screenshot](images/todo.png)
+
+### Update Screen
+
+![Update Screenshot](images/update.png)
 
   
 ## Author

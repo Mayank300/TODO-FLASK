@@ -7,9 +7,11 @@ Use pip to install the dependencies
 
 ```bash
   pip3 install flask
-  
+```
+```bash
   pip3 install flask_sqlalchemy
-  
+```
+```bash
   pip3 install datetime
 ```
   
